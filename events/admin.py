@@ -11,5 +11,3 @@ class EventAdmin(admin.ModelAdmin):
     list_editable = ("prioryt",)
     search_fields = ("event","date")
 
-
-
