@@ -3,7 +3,8 @@ from .models import Event
 from django.utils.timezone import localdate
 
 # Create your views here.
- def index(request):
+
+def index(request):
      """Exibe a pagina principal"""
      context={
          'hide_new_button':True,

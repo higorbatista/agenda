@@ -1,7 +1,7 @@
 from django.urls import path
-from . import view
+from . import views
 
 urlpatterns = [
-    path('',view.index, name='agenda-events-index')
+    path('',views.index, name='agenda-events-index')
 
 ]
